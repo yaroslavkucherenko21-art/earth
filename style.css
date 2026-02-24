@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+#canvas-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#info-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0,0,0,0.6);
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 300px;
+  font-size: 14px;
+}
